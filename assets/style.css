@@ -1,0 +1,43 @@
+body {
+  padding: 20px;
+  background: #fff;
+}
+
+.tree-visualization {
+  font-size: 14px;
+}
+.tree-visualization ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+}
+.tree-visualization .token-name {
+  color: #268BD2;
+  cursor: pointer;
+}
+.tree-visualization .body > li, .tree-visualization .togglable > div {
+  line-height: 1.5;
+}
+.tree-visualization .token-name:hover {
+  text-decoration: underline;
+}
+.tree-visualization .name {
+  color: #B58900;
+}
+.tree-visualization .prefix, .tree-visualization .suffix, .tree-visualization .colon {
+  color: #93A1A1;
+}
+.tree-visualization .prefix {
+  margin-left: 6px;
+}
+.tree-visualization .colon {
+  margin-right: 6px;
+}
+.tree-visualization .literal {
+  color: #2AA198;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
